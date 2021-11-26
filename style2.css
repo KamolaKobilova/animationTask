@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+  
+  }
+  .col-left {
+    width: 20%;
+    float: left;
+    height: 100vh;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(235, 82, 27);
+  }
+   #col-right {
+    width: 75%;
+   float: left;  
+    height: 100vh;
+    border-style: solid;
+    border-radius: 10px;
+   padding: 20px;
+   
+   ;
+    
+  }
+  .details {
+    /* position: absolute; */
+     padding-top: 5px;
+     margin-top: 10px;
+    width: 350px;
+    height: 500px;
+   background-color: rgb(219, 204, 204);
+    text-align: center;
+      
+  }
+  .button{
+   width: 300px; 
+   height: 25px;
+   border-radius: 20px;
+   padding: 3px;
+   border-color: green;
+   margin: 15px;
+   ;
+  }
+  .buttons{
+    width: 260px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: orangered;
+   
+  }
+  .btn {
+    margin-top: 20px;
+    width: 130px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: rgb(177, 174, 174);
+  }
+  .btns{
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    height: 30px;
+  }
+  .setting {
+    position: absolute;
+    top: 600px;
+  }
+  ul{
+    list-style: none;
+    font-size: 25px;
+    color: white
+   ;
+  }
+  .pic{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+  .left{
+   margin: 10px;
+  }
+  .ul li{
+    margin: 10px;
+  }
+  .dash{
+    display: none;
+  }
+  #parent:hover .dash{
+    display: block;
+  
+  }
+  .load{
+    display: none;
+  }
+  #parent:hover .load{
+    display: block;
+  }
+  .dash ho{
+   display: block;
+   position: absolute;
+   background-color: rgb(175, 105, 105);
+   margin-top:15px;
+   width: 100px;
+   height: 100px;
+  }

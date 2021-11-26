@@ -1,0 +1,146 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(194, 189, 189);
+}
+aside {
+  float: left;
+  width: 20%;
+  border-style: solid;
+  height: 150vh;
+  background-color: rgb(243, 105, 55);
+  border-radius: 20px;
+}
+.www {
+  background-color:rgb(180, 175, 175);
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 350px;
+  height: 400px;
+  background-color: palegreen;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  transition: width 2s;
+  transition-delay: 1s;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+
+
+
+
+  
+}
+.card:hover{
+  width: 400px;
+  height: 350px;
+  background-color:blueviolet;
+  border-radius: 70px;
+  transform: rotate(300deg);
+}
+body {
+}
+.all-in {
+  background-color: green;
+}
+
+.image img {
+  width: 250px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+#bs {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+}
+#h1 {
+  position: absolute;
+  top: -117px;
+}
+aside {
+  /* text-align: center; */
+  list-style: none;
+  text-decoration: none;
+}
+ {
+  text-align: center;
+}
+aside li {
+  font-size: 30px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+.side {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+  
+}
+.side:hover{
+  transform: scale(1) translate(50px,100px) rotateX(150deg);
+  background-color: blue;
+  border-radius: 20px;
+  transform: skewX(20deg);
+  width: 300px;
+  transform: rotate(180deg);
+}
+#logo {
+  font-size: 30px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+#logo:hover{
+  width: 600px;
+  background-color:blue;
+  transform: rotate(300deg);
+  border-radius: 50px;
+  text-align: center;
+  transform: scale(2);
+}
+.dash {
+  display: none;
+}
+/* #sidebar:hover .dash {
+  display: block;
+} */
+/* .dash li {
+  color: black;
+} */
+.divider a {
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 730px;
+  left: 20px;
+}
+#sidebar{
+  position: absolute;
+  top: 106px;
+  left: -8px;
+}
+.sidebar{
+  position: absolute;
+  top: 821px;
+  left: -8px;
+}
